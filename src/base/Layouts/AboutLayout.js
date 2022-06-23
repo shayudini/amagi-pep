@@ -6,7 +6,9 @@ const AboutLayout = ({ children }) => {
     <>
       <main className="flex h-full flex-col md:flex-row">
         <Navigation />
-        <section className="h-full w-full overflow-auto">{children}</section>
+        <section className="relative h-full w-full overflow-hidden">
+          {children}
+        </section>
       </main>
     </>
   );

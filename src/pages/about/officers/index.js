@@ -7,110 +7,132 @@ const officers = () => {
   return (
     <>
       <Title text={'Key Officers'} />
-      <section className="grid h-full w-full grid-cols-2 place-items-center gap-4 p-4 lg:grid-cols-4 lg:p-12">
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Joseph Madrid</h3>
-          <h4 className="text-xs">Chairman of the Board</h4>
-        </div>
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Emeterio Gonzales III</h3>
-          <h4 className="text-xs">President</h4>
-        </div>
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Lorenzo Roxas</h3>
-          <h4 className="text-xs">Nominee</h4>
-        </div>
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Rene Ongpin</h3>
-          <h4 className="text-xs">Director</h4>
-        </div>
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Joseph Hignon</h3>
-          <h4 className="text-xs">Independent Director</h4>
-        </div>
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Eduardo Saguil</h3>
-          <h4 className="text-xs">Independent Director</h4>
-        </div>
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Pancho Umali</h3>
-          <h4 className="text-xs">Corporate Secretary</h4>
-        </div>
-        <div>
-          <Image
-            src="/person-placeholder.jpg"
-            layout="intrinsic"
-            width={200}
-            height={200}
-            objectFit="cover"
-            objectPosition="center"
-            alt="peron"
-          />
-          <h3 className="text-sm font-semibold">Jennifer Marie Castro</h3>
-          <h4 className="text-xs">Assist. Corp. Secretary</h4>
+      <section className="relative h-full overflow-y-scroll">
+        <div className="relative h-full w-full">
+          <div className="absolute inset-0 grid grid-flow-row grid-cols-2 gap-4 p-4 lg:grid-cols-3 lg:p-12">
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Emeterio Gonzales III</h3>
+              <h4 className="text-xs">President</h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Lorenzo Roxas</h3>
+              <h4 className="text-xs">Nominee</h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">
+                Maria Lourdes Arroyo-de Guzman
+              </h3>
+              <h4 className="text-xs">
+                Treasurer/ Chief Operating Officer / Data Protection Officer /
+                Branch OPS
+              </h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Mark Abada</h3>
+              <h4 className="text-xs">Head of Sales</h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Jasmine Cariño</h3>
+              <h4 className="text-xs">Head of Sales and Trading</h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Ronald Hermogenes</h3>
+              <h4 className="text-xs">Associated Person/Compliance Officer</h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Wyndell Mendoza</h3>
+              <h4 className="text-xs">Head of Operations</h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Catherine Rose Yleaña</h3>
+              <h4 className="text-xs">Head of Finance</h4>
+            </div>
+            <div className="lg:p-24">
+              <Image
+                src="/person-placeholder.jpg"
+                layout="responsive"
+                width={200}
+                height={200}
+                objectFit="cover"
+                objectPosition="center"
+                alt="peron"
+              />
+              <h3 className="text-sm font-semibold">Anton Tuaño</h3>
+              <h4 className="text-xs">Head of Information Technology</h4>
+            </div>
+          </div>
         </div>
       </section>
     </>
