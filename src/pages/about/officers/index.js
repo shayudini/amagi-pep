@@ -9,7 +9,7 @@ const officers = () => {
       <Title text={'Key Officers'} />
       <section className="relative h-full overflow-y-scroll">
         <div className="relative h-full w-full">
-          <div className="absolute inset-0 grid grid-flow-row grid-cols-2 gap-4 p-4 lg:grid-cols-3 lg:p-12">
+          <div className="absolute inset-0 grid grid-flow-row grid-cols-2 gap-4 p-4 lg:grid-cols-3 lg:p-12 mb-32">
             <div className="lg:p-24">
               <Image
                 src="/person-placeholder.jpg"

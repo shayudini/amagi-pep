@@ -7,7 +7,7 @@ const overview = () => {
   return (
     <>
       <Title text={"Company's Overview"} />
-      <div className="flex h-full flex-col gap-12 p-4 lg:flex-row lg:p-12">
+      <div className="flex h-full flex-col gap-12 overflow-y-scroll p-4 lg:flex-row lg:p-12">
         <div className="flex-1">
           <p className="max-w-screen-md leading-7 tracking-wider">
             <em className="text-lg font-semibold">
@@ -23,7 +23,7 @@ const overview = () => {
             locally-owned brokerage houses.
           </p>
         </div>
-        <div className="relative h-full max-h-[75%] min-h-[50%] w-full flex-1 rounded-lg">
+        <div className="relative mb-32 h-full max-h-[75%] min-h-[50%] w-full flex-1 rounded-lg">
           <Image
             src="https://source.unsplash.com/random?finance"
             layout="fill"
